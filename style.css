@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    background: whitesmoke;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:
+     rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container-city{
+    display: flex;
+}
+.city{
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: lightblue; 
+    font-size: 18px;
+    border-radius: 10px 0px 0px 10px;
+}
+.city-button{
+    width: 25%;
+    border-radius: 0px 10px 10px 0px;
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;    
+}
+
+.details div{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info{
+    margin-top: 30px;
+}
